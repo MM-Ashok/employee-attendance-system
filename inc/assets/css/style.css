@@ -1,0 +1,43 @@
+/* Header styling */
+h1, h2, h3, h4, h5{
+    font-family: "Poppins", sans-serif;
+}
+p, span, a, input {
+    font-family: "DM Sans", sans-serif;
+}
+.login_header {
+    background: #ededed;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.login_header img {
+    width: 100px;
+    height: auto;
+}
+/* Footer styling */
+.footer {
+    background-color: #102D4E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Login form styling */
+.login-container {
+    max-width: 420px;
+    width: 420px;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.btn-primary {
+    background-color: #FF8800;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #F15A27;
+}
