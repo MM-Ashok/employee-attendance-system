@@ -1,4 +1,7 @@
 <?php
+// Define the base URL for your application
+define('BASE_URL', 'http://localhost/employee-attendance-system');
+
 // Database configuration
 $host = 'localhost'; // Database host
 $dbname = 'miraiemployeesystem'; // Database name

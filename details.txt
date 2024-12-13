@@ -1,0 +1,37 @@
+Platform:: Core PHP
+
+Login details:: 
+
+admin:- 
+username:- admin_user
+pswd:- admin
+
+employee:-
+username:- mahipal_singh
+pswd:- 123456
+
+Git URL:: https://github.com/MM-Ashok/employee-attendance-system
+dev server url:-  http://192.168.1.10/employee-attendance-system/employee-attendance-system/login.php
+
+Functionality::
+Employee::
+- Add/Edit/Delete Employee. [Done]
+- Employee Leave application. [Done]
+- Track employee time based on date. [Pending]
+- Filter employee time based on date and date range. [Pending]
+
+Report:: Dsiplay total working hours per day or monthly bases. [Pending]
+Login page for Admin and Employee. [Done]
+
+/********************************************************************************************************
+*********************************************************************************************************/
+
+issue::
+1) Change website title (https://prnt.sc/xVAX4Iw5_Or0)
+2) if log out time is not available then display error (https://prnt.sc/BMmOLwQdWdPm)
+3) Under Track Employee time under listing there should be only 3 coloumn (Employee name, Login Time (this will be first time when employee start working for the day), Total Hours Worked).
+-- Only one record should display for each employee.
+-- Further when admin click on the records we will display full records in popup for the specific day.
+-- On Top admin can select the date or date range and records will display in list accordingly. (https://prnt.sc/GDqDhHvhGpv2)
+-- By default in listing we display current date records.
+4) set and use global variables for path.. issue:: https://prnt.sc/VPOubcWR-Lg_

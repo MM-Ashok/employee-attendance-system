@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
               <nav aria-label="breadcrumb">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item active" aria-current="page">
-                     <a href="http://localhost/employee-attendance-system/employee/dashboard.php" class="btn btn-link btn-fw">Back to dashboard</a>
+                     <a href="<?php echo BASE_URL; ?>/employee/dashboard.php" class="btn btn-link btn-fw">Back to dashboard</a>
                   </li>
                 </ul>
               </nav>

@@ -11,7 +11,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'employee') {
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Purple Admin</title>
+    <title>Employee Dashboard</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../assets/vendors/ti-icons/css/themify-icons.css">
@@ -43,7 +43,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'employee') {
     <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
           <a class="navbar-brand brand-logo" href="http://localhost/employee-attendance-system/employee/dashboard.php"><img src="../assets/images/site-logo-main.svg" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="http://localhost/employee-attendance-system/employee/dashboard.php"><img src="assets/images/site-logo-main.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="http://localhost/employee-attendance-system/employee/dashboard.php"><img src="../assets/images/site-logo-main.svg" alt="logo" /></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-stretch">
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">

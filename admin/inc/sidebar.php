@@ -1,5 +1,6 @@
 <?php
 
+
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     header("Location: ../login.php");
     exit();
@@ -36,7 +37,7 @@ if (isset($_SESSION['user_id'])) {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="http://localhost/employee-attendance-system/admin/dashboard.php">
+              <a class="nav-link" href="<?php echo BASE_URL; ?>/admin/dashboard.php">
                 <span class="menu-title">Dashboard</span>
                 <i class="mdi mdi-home menu-icon"></i>
               </a>
@@ -50,13 +51,13 @@ if (isset($_SESSION['user_id'])) {
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/employee-attendance-system/admin/view_employees.php">View Employee List</a>
+                    <a class="nav-link" href="<?php echo BASE_URL; ?>/admin/view_employees.php">View Employee List</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/employee-attendance-system/admin/add_employee.php">Add Employee</a>
+                    <a class="nav-link" href="<?php echo BASE_URL; ?>/admin/add_employee.php">Add Employee</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/employee-attendance-system/admin/view_leave_requests.php">View Leave Request</a>
+                    <a class="nav-link" href="<?php echo BASE_URL; ?>/admin/view_leave_requests.php">View Leave Request</a>
                   </li>
                 </ul>
               </div>
@@ -71,10 +72,10 @@ if (isset($_SESSION['user_id'])) {
               <div class="collapse" id="auth">
                 <ul class="nav flex-column sub-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/employee-attendance-system/admin/view_work_hours.php"> Track Employee Time </a>
+                    <a class="nav-link" href="<?php echo BASE_URL; ?>/admin/view_work_hours.php"> Track Employee Time </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"> Track attendance </a>
+                    <a class="nav-link" href="<?php echo BASE_URL; ?>/admin/display_working_hours.php"> Report </a>
                   </li>
                 </ul>
               </div>

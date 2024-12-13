@@ -37,7 +37,7 @@ if (!$employee) {
               <nav aria-label="breadcrumb">
                 <ul class="breadcrumb">
                   <li class="breadcrumb-item active" aria-current="page">
-                    <a href="http://localhost/employee-attendance-system/admin/view_employees.php" class="btn btn-link btn-fw">Back to list</a>
+                    <a href="<?php echo BASE_URL; ?>/admin/view_employees.php" class="btn btn-link btn-fw">Back to list</a>
                   </li>
                 </ul>
               </nav>
