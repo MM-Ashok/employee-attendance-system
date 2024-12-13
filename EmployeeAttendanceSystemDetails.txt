@@ -30,11 +30,13 @@ Report::
 ************************************************************************
 
 issue::
-1) Change website title (https://prnt.sc/xVAX4Iw5_Or0)
-2) if log out time is not available then display error (https://prnt.sc/BMmOLwQdWdPm)
+1) Change website title (https://prnt.sc/xVAX4Iw5_Or0) :: Done
+2) if log out time is not available then display error (https://prnt.sc/BMmOLwQdWdPm) :: Done
 3) Under Track Employee time under listing there should be only 3 coloumn (Employee name, Login Time (this will be first time when employee start working for the day), Total Hours Worked).
 -- Only one record should display for each employee.
 -- Further when admin click on the records we will display full records in popup for the specific day.
--- On Top admin can select the date or date range and records will display in list accordingly. (https://prnt.sc/GDqDhHvhGpv2)
+-- On Top admin can select the date or date range and records will display in list accordingly. (https://prnt.sc/GDqDhHvhGpv2) :: Done
 -- By default in listing we display current date records.
 4) set and use global variables for path.. issue:: https://prnt.sc/VPOubcWR-Lg_
+5) error on header[admin dashboard]:-  https://prnt.sc/h5JdocTiN33J
+

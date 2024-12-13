@@ -89,7 +89,6 @@ $work_hours_data = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                 <tr>
                                     <th>Employee Name</th>
                                     <th>Login Time</th>
-                                    <th>Logout Time</th>
                                     <th>Total Hours Worked</th>
                                 </tr>
                             </thead>
@@ -99,7 +98,6 @@ $work_hours_data = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                         <tr>
                                             <td><?php echo htmlspecialchars($entry['username'] ?? 'N/A'); ?></td>
                                             <td><?php echo htmlspecialchars($entry['login_time'] ?? 'N/A'); ?></td>
-                                            <td><?php echo htmlspecialchars($entry['logout_time'] ?? 'N/A'); ?></td>
                                             <td><?php echo htmlspecialchars($entry['hours_worked'] ?? 'N/A'); ?></td>
                                         </tr>
                                     <?php endforeach; ?>
